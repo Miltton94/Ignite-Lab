@@ -1,6 +1,8 @@
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 
+import Mask from "../assets/Mask.png";
+
 import { gql, useMutation } from "@apollo/client";
 
 import Footer from "./Footer";
@@ -90,7 +92,7 @@ const Subcribe = () => {
         </div>
 
         <img
-          src="/src/assets/Mask.png"
+          src={Mask}
           alt="Banner"
         />
         <Footer />
